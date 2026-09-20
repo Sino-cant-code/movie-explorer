@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import heroImg from '../assets/hero.png'
 
 function Hero() {
@@ -13,7 +14,7 @@ function Hero() {
           <p className="mb-5">
             Explore and discover your favorite movies from around the world.
           </p>
-          <a href="#movies" className="btn btn-primary">Explore Now</a>
+          <Link to="/movies" className="btn btn-primary">Explore Now</Link>
         </div>
       </div>
     </div>
