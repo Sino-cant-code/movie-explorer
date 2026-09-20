@@ -1,16 +1,22 @@
-# React + Vite
+# MovieExplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive movie browsing app built with React, Tailwind CSS, and DaisyUI. Users can browse shows, search by title, and view detailed information in a modal.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Home page with hero banner and call-to-action
+- Movie listing page with live search
+- Responsive grid of movie cards (poster, title, rating, release year)
+- Details modal with summary, genre, rating, and release date
+- Data fetched from the [TVMaze API](https://www.tvmaze.com/api)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Vite)
+- React Router
+- Tailwind CSS
+- DaisyUI
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Live Demo
+https://movie-explorer-tau-three.vercel.app/movies
