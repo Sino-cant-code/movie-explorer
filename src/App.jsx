@@ -1,12 +1,13 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import MovieListing from './pages/MovieListing'
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/movies" element={<MovieListing />} />
+    </Routes>
   )
 }
 
