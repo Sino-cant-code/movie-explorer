@@ -19,4 +19,4 @@ A responsive movie browsing app built with React, Tailwind CSS, and DaisyUI. Use
 
 
 ## Live Demo
-https://movie-explorer-git-main-sino-cant-codes-projects.vercel.app/
+https://movie-explorer-tau-three.vercel.app/
